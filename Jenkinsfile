@@ -18,7 +18,7 @@ pipeline {
 
                 if exist venv rmdir /s /q venv
 
-                python -m venv venv
+                "C:\\Users\\WCLAB\\AppData\\Local\\Python\\bin\\python.exe" -m venv venv
 
                 echo [2/3] Upgrading pip...
 
